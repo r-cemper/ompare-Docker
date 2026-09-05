@@ -1,4 +1,6 @@
-# ompare
+## ompare in Docker 
+This is an interesting tool in a safe and isolated Docker environment.
+
 Extensible side-by-side compare across two and more disconnected IRIS / Cache environments.
 This code has had a lot of useful exercise in production environments and has been re-packaged to share freely in the hope it will be useful to wider Cache / IRIS user community.
 
@@ -258,27 +260,7 @@ Test from docker console
 $ docker-compose exec iris1 iris session iris
 USER>
 ```
-or using **WebTerminal**
+or using **iterm**
 ```
-http://localhost:42773/terminal/
+http://localhost:42773/iterm/
 ```
-
-
-
-
-
-
-
-
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
