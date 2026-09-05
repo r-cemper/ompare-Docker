@@ -1,5 +1,5 @@
 ## ompare in Docker 
-This is an interesting tool in a safe and isolated Docker environment.
+This is an interesting tool for experimenting in a safe and isolated Docker environment.
 
 Extensible side-by-side compare across two and more disconnected IRIS / Cache environments.
 This code has had a lot of useful exercise in production environments and has been re-packaged to share freely in the hope it will be useful to wider Cache / IRIS user community.
