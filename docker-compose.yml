@@ -1,11 +1,11 @@
-version: '3.8'
 services:
   iris:
     build: 
       context: .
       dockerfile: Dockerfile
-    restart: always
-    command: --check-caps false --ISCAgent false
+    restart: no
+    command: /iris-main 
+      --ISCAgent false
     ports:
       - 41773:1972
       - 42773:52773
