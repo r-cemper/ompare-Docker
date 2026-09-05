@@ -249,11 +249,11 @@ $ git clone https://github.com/r-cemper/ompare-Docker.git
 ```
 Open the terminal in this directory and run:
 ```
-$ docker-compose build
+$ docker compose --progress plain build
 ```
 Run IRIS container with your project:
 ```
-$ docker-compose up -d
+$ docker-compose up -d   && docker-compose logs -f
 ```
 Test from docker console
 ```
